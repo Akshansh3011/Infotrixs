@@ -1,59 +1,70 @@
-Currency Converter Documentation
-Introduction
-The Currency Converter is a Java program that allows users to convert currencies using real-time exchange rates. It utilizes the ExchangeRateHost API to retrieve the latest exchange rates between various currencies.
+# Currency Converter Documentation
 
-Features
-Convert Currency: Convert an amount from one currency to another based on the latest exchange rates.
+## Introduction
 
-Add to Favorite Currency List: Add a currency to your favorite list for quick access.
+The Currency Converter is a Java program that enables users to convert currencies using real-time exchange rates. It leverages the ExchangeRateHost API to fetch the latest exchange rates between various currencies.
 
-View Favorite Currency List: Display the list of currencies that have been added to the favorites.
+## Features
 
-Update Favorite Currency Rate: Update, replace, or remove a currency from the favorites list.
+1. **Convert Currency:** Convert an amount from one currency to another based on the latest exchange rates.
 
-Quit: Exit the Currency Converter program.
+2. **Add to Favorite Currency List:** Add a currency to your favorite list for quick access.
 
-Usage
-Access Key: The program requires an access key from ExchangeRateHost to fetch the latest exchange rates. The default access key in the provided code is 2aa10c95325c0e72f3c8f40c380fa6c8. Make sure to replace it with your own key for production use.
+3. **View Favorite Currency List:** Display the list of currencies that have been added to the favorites.
 
-Main Menu:
+4. **Update Favorite Currency Rate:** Update, replace, or remove a currency from the favorites list.
 
-Choose from options 1 to 5 to perform different actions.
-Convert Currency:
+5. **Quit:** Exit the Currency Converter program.
 
-Enter the amount to convert.
-Input the source currency code.
-Specify the target currency code.
-The program will display the converted amount.
-Add to Favorite Currency List:
+## Usage
 
-Enter the currency code to add to the favorites.
-The program will add the currency to the favorites with its current exchange rate.
-View Favorite Currency List:
+1. **Access Key:** The program requires an access key from ExchangeRateHost to fetch the latest exchange rates. The default access key in the provided code is `2aa10c95325c0e72f3c8f40c380fa6c8`. Replace it with your own key for production use.
 
-Displays the list of currencies in the favorites along with their exchange rates.
-Update Favorite Currency Rate:
+2. **Main Menu:**
+   - Choose from options 1 to 5 to perform different actions.
 
-View the current favorites list.
-Choose to delete or replace a currency.
-If replacing, enter the new currency code.
-The program will update the favorites accordingly.
-Quit:
+3. **Convert Currency:**
+   - Enter the amount to convert.
+   - Input the source currency code.
+   - Specify the target currency code.
+   - The program will display the converted amount.
 
-Choose option 5 to exit the program.
-Dependencies
+4. **Add to Favorite Currency List:**
+   - Enter the currency code to add to the favorites.
+   - The program will add the currency to the favorites with its current exchange rate.
+
+5. **View Favorite Currency List:**
+   - Displays the list of currencies in the favorites along with their exchange rates.
+
+6. **Update Favorite Currency Rate:**
+   - View the current favorites list.
+   - Choose to delete or replace a currency.
+   - If replacing, enter the new currency code.
+   - The program will update the favorites accordingly.
+
+7. **Quit:**
+   - Choose option 5 to exit the program.
+
+## Dependencies
+
 The program utilizes the following libraries:
 
-OkHttp: Used for making HTTP requests to the ExchangeRateHost API.
-JSON-java: Used for parsing JSON responses.
-Installation
-Clone the repository: git clone https://github.com/yourusername/yourrepository.git
-Open the project in your preferred Java development environment (IDE).
-Replace the ACCESS_KEY in the CurrencyConverter class with your ExchangeRateHost API key.
-Run the program.
-Troubleshooting
-If you encounter issues with the ExchangeRateHost API key or network connectivity, check your internet connection and ensure the API key is valid.
-Disclaimer
+- [OkHttp](https://square.github.io/okhttp/): Used for making HTTP requests to the ExchangeRateHost API.
+- [JSON-java](https://github.com/stleary/JSON-java): Used for parsing JSON responses.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/yourusername/yourrepository.git`
+2. Open the project in your preferred Java development environment (IDE).
+3. Replace the `ACCESS_KEY` in the `CurrencyConverter` class with your ExchangeRateHost API key.
+4. Run the program.
+
+## Troubleshooting
+
+- If you encounter issues with the ExchangeRateHost API key or network connectivity, check your internet connection and ensure the API key is valid.
+
+## Disclaimer
+
 This Currency Converter is provided as-is without any warranty. Use it responsibly and ensure compliance with ExchangeRateHost's terms of use.
 
 Feel free to modify and enhance the documentation based on your specific project requirements and additional features.
